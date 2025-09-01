@@ -164,7 +164,7 @@ Time to implement: [Z minutes]
 
 ### **Before Contributing:**
 - Review our [4D Framework](docs/4d-framework.md) for responsible AI use
-- Check existing examples in the [your subject area](docs/subject-examples/) to avoid duplication
+- Check existing examples in [your subject area](docs/subject-examples/) to avoid duplication
 
 ---
 
