@@ -165,30 +165,6 @@ Time to implement: [Z minutes]
 ### **Before Contributing:**
 - Review our [4D Framework](docs/4d-framework.md) for responsible AI use
 - Check existing examples to avoid duplication
-- Read our [Quick Reference Guide](docs/quick-reference.md) for formatting
-
-### **Need Help?**
-- 💬 Start a Discussion for general questions
-- 🐛 Open an Issue for specific problems
-- 📧 Email [your-email@example.com] for private inquiries
-
-## Code of Conduct
-
-### **Our Commitment:**
-This repository is committed to creating a welcoming, supportive community for educators. All contributors are expected to:
-
-- **Be respectful** in all interactions
-- **Focus on education** and student benefit
-- **Share credit** and acknowledge others' work
-- **Support colleagues** learning to use AI tools
-- **Prioritize student welfare** in all recommendations
-
-### **Not Tolerated:**
-- Harassment or discrimination of any kind
-- Sharing student personal information
-- Promoting inappropriate AI use
-- Spam or self-promotion
-- Disrespectful criticism without constructive alternatives
 
 ---
 
@@ -205,6 +181,3 @@ Every contribution, no matter how small, helps create better resources for teach
 
 **Thank you for helping to build this resource together! 🙏**
 
----
-
-**Questions about contributing? Don't hesitate to reach out. I'm here to help!**
