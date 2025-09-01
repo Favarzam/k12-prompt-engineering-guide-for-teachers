@@ -122,4 +122,7 @@ Diligence encompasses the ongoing responsibilities of using AI tools ethically a
 
 
 
-https://stars.library.ucf.edu/teachwithai/2025/thursday/102/?utm_source=chatgpt.com
+https://ringling.libguides.com/ai/framework
+https://anthropic.skilljar.com/ai-fluency-framework-foundations
+
+
