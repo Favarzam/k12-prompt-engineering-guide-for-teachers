@@ -1,263 +1,131 @@
-## Getting Started with Prompt Engineering
+# Prompt Engineering Basics for Teachers
 
 ### What is Prompt Engineering?
-Prompt engineering is the art and science of crafting clear, specific instructions to get the best results from AI tools. Think of it as giving directions to a very capable but literal-minded assistant.
 
-### Basic Principles
+**Prompt engineering** is the practice of designing and refining the instructions you give to a large language model (LLM) so it produces useful, accurate, and tailored responses.
 
-#### 1. Be Specific and Clear
-❌ **Poor**: "Help me with math"
-✅ **Better**: "Create 5 word problems involving fractions for 4th graders"
+Think of it as classroom questioning strategies:
 
-#### 2. Provide Context
-❌ **Poor**: "Make a quiz"
-✅ **Better**: "Create a 10-question multiple choice quiz on photosynthesis for 6th grade students"
-
-#### 3. Set Expectations
-❌ **Poor**: "Explain gravity"
-✅ **Better**: "Explain gravity using simple language and everyday examples for 3rd graders"
-
-#### 4. Use Examples When Helpful
-```
-Create reading comprehension questions like these examples:
-- What is the main character's motivation?
-- How does the setting affect the story?
-- What evidence supports the author's claim?
-```
+* A vague question (“What do you think?”) often gets vague answers.
+* A precise, structured question (“Explain how photosynthesis works in 3 steps, and compare it to making a sandwich”) encourages deeper, more useful answers.
 
 ---
 
-## Subject-Specific Examples
+## Core Principles of Prompt Engineering
 
-### 📚 Reading and Literacy
+### 1. **Clarity and Specificity**
 
-#### **Vocabulary Development**
-```
-Create a vocabulary lesson for [grade level] using the word "[target word]":
-- Provide an age-appropriate definition
-- Give 3 example sentences showing different contexts
-- Suggest 2 hands-on activities to reinforce the word
-- Include 1 assessment question
+LLMs thrive on detail. The more context you provide, the closer the output will match your needs.
 
-Target word: "perseverance"
-Grade level: 5th grade
-```
+* **Vague Prompt:** “Write about ecosystems.”
+* **Better Prompt:** “Write a 150-word explanation of ecosystems for high school biology students. Include one example of a desert ecosystem and one of a rainforest.”
 
-#### **Reading Comprehension**
-```
-Generate 5 reading comprehension questions for this passage:
-[Insert passage]
+---
 
-Include:
-- 2 literal comprehension questions (who, what, when, where)
-- 2 inferential questions (why, how, what if)
-- 1 critical thinking question (evaluate, compare, judge)
+### 2. **Role and Perspective**
 
-Make questions appropriate for [grade level] students.
-```
+You can assign the model a role or perspective, which shapes how it responds.
 
-#### **Creative Writing Prompts**
-```
-Create 3 creative writing prompts for [grade level] that:
-- Connect to their interests and experiences
-- Include a clear scenario and character
-- Provide optional story starters
-- Encourage descriptive language
+* **Example Roles for Teaching:**
 
-Theme: Adventure
-Grade level: 3rd grade
-```
+  * *Tutor:* “You are a math tutor. Explain quadratic equations step-by-step.”
+  * *Examiner:* “Act as an exam grader. Give me feedback on this student essay and suggest improvements.”
+  * *Creative Coach:* “You are a creative writing teacher. Suggest 3 engaging story starters for 7th graders.”
 
-### 🔢 Mathematics
+---
 
-#### **Word Problem Generation**
-```
-Create 4 word problems for [mathematical concept] at [grade level]:
-- Use real-world scenarios students can relate to
-- Vary the context (sports, cooking, shopping, etc.)
-- Include step-by-step solutions
-- Add one challenge problem for advanced students
+### 3. **Structure and Formatting**
 
-Concept: Multiplication with 2-digit numbers
-Grade level: 4th grade
-```
+You can tell the model exactly how you want information presented.
 
-#### **Math Concept Explanation**
-```
-Explain [math concept] to [grade level] students using:
-- A simple, clear definition
-- 2-3 visual analogies or real-world examples
-- Common mistakes students make and how to avoid them
-- A practice problem with guided solution
+* **Examples of Format Instructions:**
 
-Concept: Fractions as parts of a whole
-Grade level: 3rd grade
-```
+  * Lists or bullet points: “Give me 5 key causes of World War I in bullet form.”
+  * Tables: “Compare plant and animal cells in a two-column table.”
+  * Lesson plan format: “Write a 40-minute lesson plan on fractions with objectives, activities, and assessment.”
 
-#### **Differentiated Practice**
-```
-Create a differentiated math activity on [topic] with:
-- 3 problems for students needing extra support
-- 3 problems at grade level
-- 3 challenge problems for advanced learners
-- Clear instructions for each level
+---
 
-Topic: Area and perimeter
-Grade level: 5th grade
-```
+### 4. **Level of Complexity**
 
-### 🔬 Science
+Models don’t always know the age or level of your audience unless you tell them.
 
-#### **Inquiry-Based Learning**
-```
-Design a science inquiry lesson on [topic] for [grade level]:
-- Start with an engaging question or observation
-- List materials needed for investigation
-- Provide step-by-step procedure
-- Include prediction and data collection sheets
-- Add reflection questions connecting to real life
+* **Prompt Example:**
+  “Explain the concept of democracy in three versions:
 
-Topic: Plant growth and light
-Grade level: 2nd grade
-```
+  1. For a 3rd grader
+  2. For a high schooler
+  3. For an adult learner in a civics class.”
 
-#### **Science Vocabulary**
-```
-Create a science vocabulary activity for [grade level] on [topic]:
-- 5-8 key terms with student-friendly definitions
-- Visual connections or analogies for each term
-- A matching activity or word puzzle
-- Real-world examples of each concept
+This helps differentiate instruction quickly.
 
-Topic: Weather patterns
-Grade level: 4th grade
-```
+---
 
-#### **Lab Safety and Procedures**
-```
-Write lab safety guidelines for [specific experiment] appropriate for [grade level]:
-- Use positive, clear language
-- Include "why" explanations for each rule
-- Add visual cues or memory devices
-- Create a safety checklist students can use
+### 5. **Iteration (Refinement)**
 
-Experiment: Building simple circuits
-Grade level: 6th grade
-```
+Prompting is not always one-and-done. You can “converse” with the model to refine answers.
 
-### 🛠️ Engineering and STEM Integration
+* Step 1: Ask broadly — “Summarize Shakespeare’s *Romeo and Juliet*.”
+* Step 2: Refine — “Make the summary 200 words.”
+* Step 3: Adapt — “Rewrite it as a modern-day high school story.”
 
-#### **Design Challenge Creation**
-```
-Design an engineering challenge for [grade level] that integrates [subjects]:
-- Clear problem statement students can understand
-- Constraints and criteria for success
-- List of available materials
-- Testing and iteration process
-- Reflection questions on the engineering design process
+This process is like scaffolding: building toward the version you really want.
 
-Challenge: Build a bridge that holds books
-Subjects: Math (measurement), Science (forces), Art (design)
-Grade level: 5th grade
-```
+---
 
-#### **STEM Career Connections**
-```
-Create a STEM career spotlight for [grade level] featuring [career]:
-- Day-in-the-life description using age-appropriate language
-- How this career uses [specific subjects]
-- Education pathway and skills needed
-- Fun facts and inspiring stories
-- Activity that mimics what this professional does
+### 6. **Constraints and Creativity**
 
-Career: Environmental Engineer
-Grade level: 4th grade
-Subjects: Science and Math
-```
+Adding constraints often produces more useful results.
 
-### 🌍 Multilingual Learners (MLLs)
+* **Example:**
+  “Write a 100-word story about photosynthesis where the sun and a plant are talking to each other, and end with a funny twist.”
 
-#### **Vocabulary Scaffolding**
-```
-Create vocabulary support for [topic] for multilingual learners at [grade level]:
-- Key terms with visual representations
-- Cognates in Spanish/[target language] where applicable
-- Sentence frames using the vocabulary
-- Real-world connections to students' experiences
-- Translation support for complex concepts
+Constraints = direction + creativity.
 
-Topic: Solar system
-Grade level: 4th grade
-Student languages: Spanish and Arabic
-```
+---
 
-#### **Language Progression Activities**
-```
-Design a reading activity for [text/topic] that supports multilingual learners:
-- Pre-reading vocabulary preview with visuals
-- During-reading sentence starters and graphic organizers
-- Post-reading discussion prompts with language support
-- Writing scaffolds progressing from words to sentences to paragraphs
-- Home language connection opportunities
+## Prompt Patterns Teachers Can Use
 
-Text: "The Water Cycle"
-Grade level: 3rd grade
-```
+Here are **6 powerful prompt types** you can adapt:
 
-#### **Cultural Asset Integration**
-```
-Create a [subject] lesson on [topic] that values multilingual learners' backgrounds:
-- Include examples from different cultures when relevant
-- Provide opportunities for students to share knowledge from home
-- Use universal themes and experiences
-- Incorporate visual and kinesthetic learning opportunities
-- Suggest ways to connect with families in their home languages
+1. **Explain Like…**
 
-Subject: Social Studies
-Topic: Community helpers
-Grade level: 1st grade
-```
+   * “Explain Newton’s first law as if you’re teaching a 12-year-old who loves soccer.”
 
-#### **Assessment Accommodations**
-```
-Modify this assessment for multilingual learners at [language proficiency level]:
-[Insert original assessment]
+2. **Step-by-Step (Chain of Thought)**
 
-Provide:
-- Visual supports and graphic organizers
-- Sentence starters and word banks
-- Option to demonstrate knowledge through drawings/diagrams
-- Extended time considerations
-- Alternative ways to show understanding
+   * “Show your reasoning step by step: How would you solve 24 ÷ 3 × 2?”
 
-Language proficiency level: Intermediate
-Subject: Science
-```
+3. **Compare and Contrast**
 
-#### **Family Engagement**
-```
-Create a family engagement piece about [topic] for multilingual families:
-- Key concepts explained in simple, clear language
-- Suggestions for home support in any language
-- Visual guides or activities families can do together
-- Questions families can ask in their home language
-- Resources for translation if needed
+   * “Compare the French and American Revolutions in a table with three similarities and three differences.”
 
-Topic: Reading strategies to support at home
-Grade level: 2nd grade
-```
+4. **Generate and Evaluate**
 
-### 🎨 Cross-Curricular Integration
+   * “Generate 5 multiple-choice questions about fractions. Then give me the answer key and a short explanation for each.”
 
-#### **Literature and Science**
-```
-Create a cross-curricular lesson connecting [book/story] with [science concept]:
-- Story elements that relate to the science topic
-- Vocabulary words that appear in both contexts
-- Hands-on activity inspired by the story
-- Discussion questions linking literature and science
+5. **Transformation**
 
-Book: "The Magic School Bus Gets Planted"
-Science concept: Plant life cycles
-Grade level: 2nd grade
-```
+   * “Turn this short story into a script for a play with 3 characters.”
+
+6. **Socratic Questioning**
+
+   * “Ask me 5 questions that will guide me to understand why the Earth has seasons.”
+
+---
+
+## Why This Matters in Education
+
+* **Time-saving:** Speeds up prep (lesson plans, worksheets, examples).
+* **Differentiation:** Quickly adapts content for various student levels.
+* **Critical Thinking:** Models good questioning techniques for students.
+* **Digital Literacy:** Helps students learn to “ask machines better questions,” a skill increasingly vital.
+
+---
+
+### Final Advice for Teachers
+
+* **Think like a teacher giving directions.** The clearer the directions, the better the “student” (the model) performs.
+* **Treat the LLM like a collaborator, not a textbook.** Check accuracy and adapt output for your context.
+* **Model prompt skills for students.** Teach them how to refine questions, check answers, and reflect on what the model produces.
+
