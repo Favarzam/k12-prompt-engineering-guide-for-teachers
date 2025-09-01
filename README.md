@@ -49,7 +49,7 @@ This comprehensive guide helps K-12 teachers harness the power of AI tools like 
 - [`docs/subject-examples/reading-literacy.md`](docs/subject-examples/reading-literacy.md) - Reading comprehension, vocabulary, writing
 - [`docs/subject-examples/mathematics.md`](docs/subject-examples/mathematics.md) - Word problems, concept explanation, differentiation
 - [`docs/subject-examples/science.md`](docs/subject-examples/science.md) - Inquiry lessons, lab activities, vocabulary
-- [`docs/subject-examples/engineering-stem.md`](docs/subject-examples/engineering-stem.md) - Design challenges, career connections
+- [`docs/subject-examples/engineering-stem.md`](docs/subject-examples/science-engineering-STEM.md) - Design challenges, career connections
 - [`docs/subject-examples/multilingual-learners.md`](docs/subject-examples/multilingual-learners.md) - Supporting English language learners
 
 
