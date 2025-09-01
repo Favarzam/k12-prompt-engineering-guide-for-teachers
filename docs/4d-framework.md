@@ -59,7 +59,7 @@ Format the output as:
 ```
 Requirements:
 - Use only materials commonly found in classrooms
-- Include accommodations for different learning styles
+- Include accommodations for different language backgrounds
 - Keep activities under 45 minutes total
 - Focus on local ecosystem examples
 ```
@@ -88,7 +88,7 @@ Discernment means critically evaluating AI outputs for accuracy, appropriateness
 - "Does this align with my learning objectives?"
 - "Will this engage my specific students?"
 - "Are there any cultural biases or insensitive content?"
-- "Does this support different learning styles?"
+- "Does this support students with different languages?"
 - "Is the language developmentally appropriate?"
 
 #### **Red Flags to Watch For:**
