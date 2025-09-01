@@ -1,1 +1,0 @@
-Disclaimer: This guide reflects current best practices as of 2025. Content is provided for educational purposes. Always verify AI-generated content for accuracy and appropriateness before use in educational settings. AI technology evolves rapidly, so stay informed about new developments and changing recommendations.
