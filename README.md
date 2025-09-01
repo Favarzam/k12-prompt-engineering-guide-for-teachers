@@ -22,13 +22,12 @@ This comprehensive guide helps K-12 teachers harness the power of AI tools like 
 
 ### ⚡ **Ready to Jump In?**
 1. Browse [Subject-Specific Examples](docs/subject-examples/) for your grade level
-2. Use the [Quick Reference Guide](docs/quick-reference.md) for templates
-3. Apply the [4D Framework](docs/4d-framework.md) for responsible use
+2. Apply the [4D Framework](docs/4d-framework.md) for responsible use
 
 ### 🎯 **Want a Systematic Approach?**
 1. Master the [4D Framework](docs/4d-framework.md) *(Delegation, Description, Discernment, Diligence)*
 2. Practice with [Advanced Techniques](docs/advanced-techniques.md)
-3. Explore [Templates](templates/) for common tasks
+
 
 ## What You'll Learn
 
@@ -56,7 +55,7 @@ This comprehensive guide helps K-12 teachers harness the power of AI tools like 
 ### 🛠️ **Ready-to-Use Resources**
 - [`templates/`](templates/) - Copy-and-paste prompt templates
 - [`examples/`](examples/) - Successful prompts and outputs from real teachers
-- [`docs/quick-reference.md`](docs/quick-reference.md) - Cheat sheet for common tasks
+
 
 ## Featured: The 4D Framework
 
