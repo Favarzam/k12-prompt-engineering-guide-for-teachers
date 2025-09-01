@@ -52,10 +52,6 @@ This comprehensive guide helps K-12 teachers harness the power of AI tools like 
 - [`docs/subject-examples/engineering-stem.md`](docs/subject-examples/engineering-stem.md) - Design challenges, career connections
 - [`docs/subject-examples/multilingual-learners.md`](docs/subject-examples/multilingual-learners.md) - Supporting English language learners
 
-### 🛠️ **Ready-to-Use Resources**
-- [`templates/`](templates/) - Copy-and-paste prompt templates
-- [`examples/`](examples/) - Successful prompts and outputs from real teachers
-
 
 ## Featured: The 4D Framework
 
@@ -110,7 +106,7 @@ See our [Contributing Guidelines](CONTRIBUTING.md) for details.
 - 🤔 **Have questions?** Open an issue and tag it with "question"
 - 💬 **Want to discuss?** Start a discussion in our community forum
 - 🚀 **Found this helpful?** Star the repository and share with colleagues
-- 📧 **Need direct help?** Check our [resources page](docs/resources.md) for professional development options
+
 
 ## Important Notes
 
